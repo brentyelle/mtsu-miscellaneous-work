@@ -1,3 +1,5 @@
+; THIS FILE IS THE ASSIGNMENT, CONTAINING 4 "MYSTERY FUNCTIONS" THAT MUST BE ANALYZED. SEE ANALYSIS IN `project2.pdf` file.
+
 
 MysteryFunction1:
 	movl	$1, %eax
