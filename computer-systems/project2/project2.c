@@ -1,6 +1,7 @@
 /* 
  * CSCI3240: Project 2
  * Brent Yelle - bjy2h
+ * This file re-implements the four "MysteryFunction"s from project2.asm in C, as requested by the assignment. All functionality is intended to be reproduced exactly.
  */
 
 
