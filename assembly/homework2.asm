@@ -1,4 +1,4 @@
-; FILENAME: yelle2.asm
+; FILENAME: homework2.asm
 ; AUTHOR: Brent Yelle
 ; CSCI 3160, Homework 2
 ; DATE: Feb 3, 2023
