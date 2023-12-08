@@ -1,0 +1,14 @@
+Parsing successful!
+
+bad.cl:2: Class UndefinedType of attribute a is undefined.
+bad.cl:8: Assignment to undeclared variable undefinedvariable.
+bad.cl:9: Type Int of assigned expression does not conform to declared type Bool of identifier b.
+bad.cl:10: non-Int arguments: Int + String
+bad.cl:11: non-Int arguments: Int < String
+bad.cl:15: Class UndefinedType of formal parameter x is undefined.
+bad.cl:18: Argument of 'not' has type String instead of Bool.
+bad.cl:15: Inferred return type Bool of method test does not conform to declared return type C.
+bad.cl:26: In call of method init, type Int of parameter y does not conform to declared type Bool.
+bad.cl:27: Method init called with wrong number of arguments.
+bad.cl:28: Dispatch to undefined method iinit.
+Compilation halted due to static semantic errors.

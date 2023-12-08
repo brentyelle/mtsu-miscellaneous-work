@@ -1,0 +1,4 @@
+/tmp/ccx7eXrd.o: In function `absyn::Program_class::semant()':
+/nfshome/zdong/temp/COOL/LinuxVersionAssignment/proj6 SymbolTable/TypeChecking.cpp:15: undefined reference to `absyn::initialize_constants()'
+collect2: error: ld returned 1 exit status
+make: *** [main] Error 1
