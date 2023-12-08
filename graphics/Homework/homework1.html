@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Draw a simple square</title>
+</head>
+
+<!-- Vertex Shader: Program that sets the positions of the current vertex. -->
+<!-- The JS WebGL function gl.drawArrays() function takes care of iterating through the vertices and passing them here. -->
+<script id="vertex-shader" type="x-shader/x-vertex">
+attribute vec4 vPosition;           // sets up to read from an attribute variable (already written to in JS)
+void main() {
+    gl_Position = vPosition;        // set position of each vPosition iteratively as told by the gl.drawArrays(...) command in JS
+}
+</script>
+
+<!-- Vertex Shader: Program that sets the colors of each fragment. -->
+<!-- The JS WebGL function gl.drawArrays() function takes care of iterating through the fragments and passing them here. -->
+<script id="fragment-shader" type="x-shader/x-fragment">
+precision mediump float;                            // use 16-bit floats for calculations
+uniform vec4 fColor;                                // sets up to read from a uniform variable (already written to in JS)
+void main() {
+    gl_FragColor = fColor;                          // set color of each fragment
+}
+</script>
+
+<!-- Load boilerplate scripts -->
+<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+<script type="text/javascript" src="../Common/initShaders.js"></script>
+<script type="text/javascript" src="../Common/MV.js"></script>
+<!-- Load the script for this particular graphic -->
+<script type="text/javascript" src="homework1.js"></script>
+</head>
+
+<!-- Load and run the main() function from yelle-homework1.js -->
+<body onload="main()">
+<!-- Create a canvas for drawing, giving it the ID 'gl-canvas' -->
+<canvas id="gl-canvas" width="512" height="512">
+<!-- Error message in case the browser doesn't load the canvas properly -->
+Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+</body>
+</html>
