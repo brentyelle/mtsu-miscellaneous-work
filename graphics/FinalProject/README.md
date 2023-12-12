@@ -5,11 +5,11 @@
 **DUE DATE:**       12/12/2023
 
 **DESCRIPTION:**    Inspired by a wacky version of chess played on the r/AnarchyChess subreddit (https://i.redd.it/js2zvlxfe9p71.jpg), this is a park with a giant chessboard and random toys & game pieces all over the place. There are several user input keys that can be pressed for functionality:
-*   keyboard [A] causes the checkers to rotate nonsensically in place
-*   keyboard [R] causes the scene to rotate slowly, and it also plays a sound clip saying "It's time to duel!" from the anime "Yu-Gi-Oh"
-*   keyboard [B] causes the scene to reset to its original setup
-*   RMB+drag rotates the scene about the origin
-*   LMB+drag translates the scene in the direction dragged
+*   keyboard `A` causes the checkers to rotate nonsensically in place
+*   keyboard `R` causes the scene to rotate slowly, and it also plays a sound clip saying "It's time to duel!" from the anime "Yu-Gi-Oh"
+*   keyboard `B` causes the scene to reset to its original setup
+*   LMB+drag rotates the scene about the origin
+*   RMB+drag translates the scene in the direction dragged
 *   scroll wheel zooms in/out
 
 **CREDITS:**
